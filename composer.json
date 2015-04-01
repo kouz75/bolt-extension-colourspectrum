@@ -3,10 +3,11 @@
     "description": "Bolt CMS extension to add an advanced colourpicker field type using Spectrum (https://bgrins.github.io/spectrum/)",
     "type": "bolt-extension",
     "keywords": [
-        "colour",
-        "picker",
+        "colourpicker",
         "spectrum",
-        "fieldtype"
+        "eyedropper",
+        "field",
+        "backend"
     ],
     "require": {
         "bolt/bolt": ">=2.0.0,<3.0.0"
