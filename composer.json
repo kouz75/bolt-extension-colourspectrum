@@ -1,0 +1,33 @@
+{
+    "name": "timcooper/colourspectrum",
+    "description": "Bolt CMS extension to add an advanced colourpicker field type using Spectrum (https://bgrins.github.io/spectrum/)",
+    "type": "bolt-extension",
+    "keywords": [
+        "colour",
+        "picker",
+        "spectrum",
+        "fieldtype"
+    ],
+    "require": {
+        "bolt/bolt": ">=2.0.0,<3.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tim Cooper",
+            "email": "tjkoopa@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "init.php"
+        ],
+        "psr-4": {
+            "Bolt\\Extension\\TimCooper\\ColourSpectrum\\": ""
+        }
+    },
+
+    "extra": {
+        "bolt-assets": "assets"
+    }
+}
