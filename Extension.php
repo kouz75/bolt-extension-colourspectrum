@@ -1,6 +1,6 @@
 <?php
 
-namespace Bolt\Extension\TimCooper\ColourSpectrum;
+namespace Bolt\Extensions\TimCooper\ColourSpectrum;
 
 use Bolt\Application;
 use Bolt\BaseExtension;

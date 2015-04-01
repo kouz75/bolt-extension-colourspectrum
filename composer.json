@@ -24,7 +24,7 @@
             "init.php"
         ],
         "psr-4": {
-            "Bolt\\Extension\\TimCooper\\ColourSpectrum\\": ""
+            "Bolt\\Extensions\\TimCooper\\ColourSpectrum\\": ""
         }
     },
 
