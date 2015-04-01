@@ -1,0 +1,16 @@
+{% set attr_opt = {
+    class:        field.class|default(''),
+    name_id:      key,
+    required:     field.required|default(false),
+    readonly:     field.readonly|default(false),
+    value:        context.content.get(contentkey),
+}%}
+
+<fieldset class="colourspectrum">
+    <div class="col-sm-12">
+        <div>
+            <label class="control-label">{{field.label|default(key)}}</label>
+        </div>
+        <input type="text" data-colourspectrum {{ macro.attr(attr_opt) }} />
+    </div>
+</fieldset>

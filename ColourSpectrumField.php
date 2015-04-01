@@ -12,6 +12,11 @@ class ColourSpectrumField implements FieldInterface
         return 'colourspectrum';
     }
 
+    public function getTemplate()
+    {
+        return '_colourspectrum.twig';
+    }
+
     public function getStorageType()
     {
         return 'text';
