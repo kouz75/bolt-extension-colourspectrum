@@ -17,7 +17,7 @@ All [Spectrum options](https://bgrins.github.io/spectrum/#options) are available
 color:
     type: colourspectrum
     options:
-        color: "yellow",
-        showInput: true,
+        color: "yellow"
+        showInput: true
         showButtons: false
 ```
