@@ -11,6 +11,8 @@
         <div>
             <label class="control-label">{{field.label|default(key)}}</label>
         </div>
-        <input type="text" data-colourspectrum {{ macro.attr(attr_opt) }} />
+        <input type="text" data-colourspectrum
+            {% if field.options is defined %} data-spectrum-options="{{ field.options | json_encode }}" {% endif %}
+            {{ macro.attr(attr_opt) }} />
     </div>
 </fieldset>

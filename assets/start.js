@@ -1,5 +1,14 @@
 jQuery(document).ready(function($) {
-    $('input[data-colourspectrum]').spectrum({
-        preferredFormat: "hex3"
+    var inputs   = $('input[data-colourspectrum]'),
+        defaults = {
+            preferredFormat: "hex3"
+        };
+
+    inputs.each(function(i, input) {
+        var $input   = $(input),
+            options  = $input.data('spectrum-options') || {},
+            settings = $.extend(defaults, options);
+
+        $input.spectrum(settings);
     });
 });
