@@ -1,5 +1,5 @@
 <?php
 
-namespace Bolt\Extensions\TimCooper\ColourSpectrum;
+namespace Bolt\Extension\TimCooper\ColourSpectrum;
 
 $app['extensions']->register(new Extension($app));

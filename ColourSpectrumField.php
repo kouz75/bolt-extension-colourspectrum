@@ -1,6 +1,6 @@
 <?php
 
-namespace Bolt\Extensions\TimCooper\ColourSpectrum;
+namespace Bolt\Extension\TimCooper\ColourSpectrum;
 
 use Bolt\Field\FieldInterface;
 
