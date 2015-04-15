@@ -19,9 +19,11 @@ class Extension extends BaseExtension
     }
 
     public function initialize() {
-        $this->addCss('assets/spectrum/spectrum.css');
-        $this->addJavascript('assets/spectrum/spectrum.js', true);
-        $this->addJavascript('assets/start.js', true);
+        if ($this->app['config']->getWhichEnd()=='backend') {
+            $this->addCss('assets/spectrum/spectrum.css');
+            $this->addJavascript('assets/spectrum/spectrum.js', true);
+            $this->addJavascript('assets/start.js', true);
+        }
     }
 
     public function getName()
